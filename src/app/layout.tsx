@@ -26,10 +26,10 @@ export const metadata: Metadata = {
     url: "https://hashnode-blog-finder.vercel.app", // Your site URL
     images: [
       {
-        url: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg', // Image URL
+        url: "/thumbnail.png", // Public image URL (path inside public folder)
         width: 800, // Width of the image
         height: 600, // Height of the image
-        alt: 'Hashnode Blogs API Preview', // Alt text for the image
+        alt: "Hashnode Blogs API Preview", // Alt text for the image
       },
     ],
   },
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     description: "This side project takes your Hashnode host URL and returns all the blogs you have.",
     images: [
       {
-        url: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg', // Image URL
-        alt: 'Hashnode Blogs API Preview', // Alt text for the image
+        url: "/thumbnail.png", // Public image URL (path inside public folder)
+        alt: "Hashnode Blogs API Preview", // Alt text for the image
       },
     ],
   },
