@@ -127,7 +127,6 @@ const Home: React.FC = () => {
         <div className='flex flex-col justify-center gap-8 items-center '>
           <h1 className='text-3xl font-bold uppercase text-center text-white drop-shadow-lg'>Find Hashnode blogs of any host url.</h1>
  
-          {/* Input Field for Username */}
           <input
             type="text"
             placeholder="Enter Hashnode host url"
