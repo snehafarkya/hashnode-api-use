@@ -55,7 +55,7 @@ const Home: React.FC = () => {
         publication(host: "${username}") {
           isTeam
           title
-          posts(first: 10) {
+          posts(first:20) {
             edges {
               node {
                 title
