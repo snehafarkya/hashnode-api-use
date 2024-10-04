@@ -14,7 +14,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// Metadata for the site
 export const metadata: Metadata = {
   title: "Hashnode Blogs API",
   description: "This side project takes your Hashnode host URL and returns all the blogs you have.",
